@@ -1,0 +1,13 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/imports/BCH_function/bin_to_hex_4bit_tb.v,1729480717,verilog,,,,BCH_tb_1,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/imports/Exercise 3/testbench.v,1728664353,verilog,,,,hex2led7_tb,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/new/BCD_func_tb.v,1729439457,verilog,,,,BCD_tb_1,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/new/INPUT1_tb.v,1730917233,verilog,,,,INPUT1_tb,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/imports/BCH_function/bch.v,1729480653,verilog,,C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/imports/BCH_function/bin_to_hex_4bit_tb.v,,BCH,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/BCD.v,1730971250,verilog,,C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/INPUT1.v,,BCD,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/INPUT1.v,1730916205,verilog,,C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/Simple_Calculator.v,,INPUT1,,,,,,,,
+C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/Simple_Calculator.v,1728663372,verilog,,C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/new/INPUT1_tb.v,,hex2led7,,,,,,,,
