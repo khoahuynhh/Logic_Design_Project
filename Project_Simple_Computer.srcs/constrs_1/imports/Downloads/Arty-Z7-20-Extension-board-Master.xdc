@@ -63,7 +63,7 @@ set_property -dict { PACKAGE_PIN Y9    IOSTANDARD LVCMOS33 } [get_ports { led_3[
 set_property -dict { PACKAGE_PIN D19    IOSTANDARD LVCMOS33 } [get_ports { but[0] }]; #IO_L4P_T0_35 Sch=BTN0
 set_property -dict { PACKAGE_PIN D20    IOSTANDARD LVCMOS33 } [get_ports { but[1] }]; #IO_L4N_T0_35 Sch=BTN1
 set_property -dict { PACKAGE_PIN L20    IOSTANDARD LVCMOS33 } [get_ports { but[2] }]; #IO_L9N_T1_DQS_AD3N_35 Sch=BTN2
-set_property -dict { PACKAGE_PIN L19    IOSTANDARD LVCMOS33 } [get_ports { but[3] }]; #IO_L9P_T1_DQS_AD3P_35 Sch=BTN3
+#set_property -dict { PACKAGE_PIN L19    IOSTANDARD LVCMOS33 } [get_ports { but[3] }]; #IO_L9P_T1_DQS_AD3P_35 Sch=BTN3
 
 ## Pmod Header JA
 #set_property -dict { PACKAGE_PIN Y18   IOSTANDARD LVCMOS33 } [get_ports { ja_p[1] }]; #IO_L17P_T2_34 Sch=JA1_P (Pin 1)

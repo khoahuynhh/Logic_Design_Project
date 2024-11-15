@@ -31,7 +31,6 @@ set_property ip_output_repo {c:/Users/Admin/Logic Design with HDL/Project_Simple
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
   {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/BCD.v}
-  {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/INPUT1.v}
   {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/Simple_Calculator.v}
   {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/top_module.v}
 }
