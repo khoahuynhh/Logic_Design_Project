@@ -37,7 +37,8 @@ module top_module(
     wire [3:0] tens_temp;
     wire [3:0] ones_temp;
     wire [2:0] but_debounce;
-    integer count;
+    reg [2:0] but_prev;
+    reg [4:0] count;
     reg done;
     
     debounce_but uut(
@@ -51,16 +52,21 @@ module top_module(
         if(reset) begin
             output_data <= 16'b0;
             count <= 15;
-            done <= 1'b0; 
-        end else if(but_debounce[0] && count > -1) begin
+            done <= 1'b0;
+            but_prev <= 3'b0; 
+        end else if(but_debounce[0] && !but_prev[0] && count >= 0) begin
             output_data[count] <= 1'b0;
-            count <= count + 1;
-        end else if(but_debounce[1] && count > -1) begin
+            count <= count - 1;
+        end else if(but_debounce[1] && !but_prev[1] && count >= 0) begin
             output_data[count] <= 1'b1;
-            count <= count + 1;
+            count <= count - 1;
+        end else if(but_debounce[2] && !but_prev[2] && count >=0) begin
+            output_data <= output_data;
+            done <= 1'b1;
         end else begin
             done <= 1'b1;
         end
+        but_prev <= but_debounce;
     end
     
     assign input_data_BCD = output_data;
