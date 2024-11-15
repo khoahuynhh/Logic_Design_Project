@@ -32,6 +32,7 @@ set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
   {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/BCD.v}
   {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/Simple_Calculator.v}
+  {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/debounce_but.v}
   {C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sources_1/new/top_module.v}
 }
 # Mark all dcp files as not used in implementation to prevent them from being

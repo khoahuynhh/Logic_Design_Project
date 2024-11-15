@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date             : Fri Nov 15 02:03:21 2024
+| Date             : Fri Nov 15 23:38:21 2024
 | Host             : DESKTOP-Q2S85GV running 64-bit major release  (build 9200)
 | Command          : report_power -file top_module_power_routed.rpt -pb top_module_power_summary_routed.pb -rpx top_module_power_routed.rpx
 | Design           : top_module
@@ -53,13 +53,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |     0.001 |      148 |       --- |             --- |
-|   LUT as Logic |     0.001 |       76 |     53200 |            0.14 |
-|   CARRY4       |    <0.001 |        8 |     13300 |            0.06 |
-|   Register     |    <0.001 |       48 |    106400 |            0.05 |
-|   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.001 |      132 |       --- |             --- |
-| I/O            |     0.026 |       21 |       125 |           16.80 |
+| Slice Logic    |     0.001 |      349 |       --- |             --- |
+|   LUT as Logic |     0.001 |      189 |     53200 |            0.36 |
+|   CARRY4       |    <0.001 |       22 |     13300 |            0.17 |
+|   Register     |    <0.001 |       94 |    106400 |            0.09 |
+|   Others       |     0.000 |        4 |       --- |             --- |
+| Signals        |     0.001 |      225 |       --- |             --- |
+| I/O            |     0.025 |       21 |       125 |           16.80 |
 | Static Power   |     0.106 |          |           |                 |
 | Total          |     0.135 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.011 |       0.003 |      0.008 |
+| Vccint    |       1.000 |     0.012 |       0.004 |      0.008 |
 | Vccaux    |       1.800 |     0.011 |       0.001 |      0.010 |
 | Vcco33    |       3.300 |     0.008 |       0.007 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -148,6 +148,7 @@ Table of Contents
 | Name       | Power (W) |
 +------------+-----------+
 | top_module |     0.029 |
+|   uut      |     0.001 |
 +------------+-----------+
 
 

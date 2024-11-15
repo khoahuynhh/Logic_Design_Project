@@ -38,7 +38,7 @@ module top_module(
     wire [3:0] ones_temp;
     wire [2:0] but_debounce;
     reg [2:0] but_prev;
-    reg [4:0] count;
+    integer count;
     reg done;
     
     debounce_but uut(
@@ -80,7 +80,7 @@ module top_module(
     );
     
     hex2led7 uut2(
-        .enable(enable),
+        .enable(done),
         .thous(thousands_temp),
         .hund(hundreds_temp),
         .t(tens_temp),

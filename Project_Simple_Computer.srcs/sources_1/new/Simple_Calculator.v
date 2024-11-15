@@ -21,7 +21,7 @@
 
 
 module hex2led7(
-    input enable, //assign for SW1
+    input wire enable, //assign for SW1
     input wire [3:0] thous,
     input wire [3:0] hund,
     input wire [3:0] t,
