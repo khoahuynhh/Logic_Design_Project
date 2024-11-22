@@ -22,7 +22,7 @@
 module BCD_tb_1;
 
     // Khai báo các tín hi?u
-    reg [15:0] numberInput; // S? nh? phân 16 bit ??u vào  
+    reg [15:0] numberInput;   
     wire [3:0] thousands;        
     wire [3:0] hundreds;         
     wire [3:0] tens;             

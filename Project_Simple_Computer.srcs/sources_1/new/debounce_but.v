@@ -23,22 +23,22 @@
 module debounce_but(
     input wire reset,
     input wire clk,
-    input wire [2:0] button_in,
-    output reg [2:0] button_out
+    input wire [3:0] button_in,
+    output reg [3:0] button_out
     );
     
     reg [19:0] counter [2:0];
-    reg [2:0] button_sync;
+    reg [3:0] button_sync;
     integer i;
     
     always @(posedge clk) begin
         if(reset) begin
-            button_sync <= 3'b000;
+            button_sync <= 4'b0000;
             counter[0] <= 20'b0;
             counter[1] <= 20'b0;
             counter[2] <= 20'b0;
         end else
-            for (i = 0; i < 3; i = i + 1) begin
+            for (i = 0; i < 4; i = i + 1) begin
                 if(button_in[i] != button_sync[i]) begin
                     button_sync[i] <= button_in[i];
                     counter[i] <= 20'd1_000_000;
